@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/main.css">
+    <title>Animated Dropdown Menu</title>
+</head>
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="/" id="homeLink">Home</a></li>
+            <li class="dropdown">
+                <a>Services</a>
+                <div class="dropdown-content" style="display: none">
+                    <a href="/service1">Service 1</a>
+                    <a href="/service2">Service 2</a>
+                    <a>Service 3</a>
+                </div>
+            </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="content">CONTENT</div>
+    <script src="public/dropdown.js"></script>
+</body>
+</html>
